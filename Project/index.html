@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amaraa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" width="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/70ba6e6850.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="container flex">
+                <a href="#intro" class="logo">Amaraa</a>
+                <a class="bars" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+                <ul id="menu">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("menu");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }}
+                </script>
+            </nav>
+        </header>
+        <main>
+            <section id="intro">
+                <img src="img/4.jpg" class="bg-img">
+                <div class="caption" style="width: 100%; top: 15vw">
+                <div class="flex container" style="align-items: center; justify-content: center" >
+                    <div style="width: 15vw">
+                        <img src="img/avatar.png">
+                    </div>
+                    <div style="width: 30vw;">
+                        <h5>become</h5>
+                        <h1 style="text-align: center;">Full <span class="bg-blue">stack</span></h1>
+                        <h2 style="text-align: end;">UI/UX Designer</h2>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section id="work">
+                <div class="container">
+                    <div class="flex flex-nowrap" style="justify-content: space-between; width: 100%; height: 100%; position: absolute;n left: 0; z-index: -1;">
+                        <div style="width: 20%;"></div>
+                        <div class="vertical-line"></div>
+                        <div style="width: 70%;"></div>
+                    </div>
+                    <div class="flex flex-nowrap" style="justify-content: space-between; padding: 30px 0;">
+                        <h1>2007</h1>
+                        <div class="circle"></div>
+                        <h2>Central Asian Youth Association<br/><span class="role">The Secretary-General</span></h2>
+                    </div>
+                    <div class="flex flex-nowrap" style="justify-content: space-between; padding: 30px 0;">
+                        <h1>2012</h1>
+                        <div class="circle"></div>
+                        <h2>Balzam Service LLC<br/><span class="role">IT-Engineer</span></h2>
+                    </div>
+                    <div class="flex flex-nowrap" style="justify-content: space-between; padding: 30px 0;">
+                        <h1>2015</h1>
+                        <div class="circle"></div>
+                        <h2>Nike Official Store<br/><span class="role">Manager</span></h2>
+                    </div>
+                    <div class="flex flex-nowrap" style="justify-content: space-between; padding: 30px 0;">
+                        <h1>2018</h1>
+                        <div class="circle"></div>
+                        <h2>Make green llc<br/><span class="role">Ecological Engineer</span></h2>
+                    </div>
+                    <div class="flex flex-nowrap" style="justify-content: space-between; padding: 30px 0;">
+                        <h1>2019</h1>
+                        <div class="circle"></div>
+                        <h2>Tavan tolgoi tulsh llc<br/><span class="role">Safety officer & IT-engineer</span></h2>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="flex flex-nowrap">
+                <div id="self-info">
+                    <div class="portrait">
+                        <img src="img/selfie.jpeg">
+                    </div>
+                    <div class="caption">
+                        <h1>Amarsaikhan <span class="normal">Enkhjargal</span></h1>
+                        <h3>34 years old</h3>
+                    </div>
+                </div>
+                <div id="family-members" class="fling-minislide">
+                    <div class="slide">
+                        <div class="portrait">
+                            <img src="img/doogii.jpeg">
+                        <div class="caption">
+                            <h4>wife</h4>
+                            <h1>Doljinsuren <span class="normal">Bat-Erdene</span></h1>
+                            <h3>32 years old</h3>
+                        </div>
+                            </div>
+                    </div>
+                    <div class="slide">
+                        <div class="portrait">
+                            <img src="img/gegee.jpeg">
+                        <div class="caption">
+                            <h4>doughter</h4>
+                            <h1>Ariungegee <span class="normal">Amarsaikhan</span></h1>
+                            <h3>Preschooler</h3>
+                        </div>
+                            </div>
+                    </div>
+                    <div class="slide">
+                        <div class="portrait">
+                            <img src="img/zulaa.jpeg">
+                        <div class="caption">
+                            <h4>doughter</h4>
+                            <h1>Ariunzul <span class="normal">Amarsaikhan</span></h1>
+                            <h3>Baby</h3>
+                        </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section id="contact">
+                <div class="container flex flex-nowrap" style="justify-content: center; column-gap: 10vw;">
+                    <a href="http://www.facebook.com/amarsaikhan.b.e">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span class="hover">fb/amarsaikhan.b.e</span>
+                    </a>
+                    <a href="mailto:e.amaraa.3@live.com">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <span class="hover">e.amaraa.3@live.com</span>
+                    </a>
+                    <a href="tel:90259509">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="hover">+976 9025 9509</span>
+                    </a>
+                </div>
+            </section>
+            <section id="copyright">
+                <p>Amarsaikhan <i class="fa-regular fa-copyright"></i> 2022</p>
+            </section>
+        </footer>
+    </body>
+</html>
