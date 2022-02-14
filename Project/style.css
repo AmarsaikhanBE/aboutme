@@ -175,7 +175,7 @@ img {
 .bg-blue {
     color: azure;
     background-color: navy;
-    padding: 0 15px;
+    padding: 0 1vw;
     opacity: .6;
 }
 
