@@ -174,7 +174,9 @@ img {
 
 .bg-blue {
     color: azure;
-    background-color: aqua;
+    background-color: navy;
+    padding: 0 15px;
+    opacity: .6;
 }
 
 footer {
